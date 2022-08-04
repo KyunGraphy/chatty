@@ -15,7 +15,7 @@ const Message = () => {
                 <div className="msg-text">Len keo da banh di mng</div>
                 </div>
             </div>
-            {/* Right Message */}
+            {/* Left Message */}
             <div className="msg left-msg">
                 <div className="msg-bubble">
                 <div className="msg-info">
@@ -39,7 +39,7 @@ const Message = () => {
                 <div className="msg-text">Okela</div>
                 </div>
             </div>
-            {/* Right Message */}
+            {/* Left Message */}
             <div className="msg left-msg">
                 <div className="msg-bubble">
                 <div className="msg-info">
@@ -51,7 +51,7 @@ const Message = () => {
                 <div className="msg-text">The thi set le nao</div>
                 </div>
             </div>
-            {/* Right Message */}
+            {/* Left Message */}
             <div className="msg left-msg">
                 <div className="msg-bubble">
                 <div className="msg-info">
@@ -63,7 +63,7 @@ const Message = () => {
                 <div className="msg-text">Bao thi di</div>
                 </div>
             </div>
-            {/* Right Message */}
+            {/* Left Message */}
             <div className="msg left-msg">
                 <div className="msg-bubble">
                 <div className="msg-info">
@@ -75,7 +75,7 @@ const Message = () => {
                 <div className="msg-text">Okk de t ru ban t</div>
                 </div>
             </div>
-            {/* Right Message */}
+            {/* Left Message */}
             <div className="msg left-msg">
                 <div className="msg-bubble">
                 <div className="msg-info">
@@ -85,6 +85,18 @@ const Message = () => {
                 </div>
 
                 <div className="msg-text">Okie bro</div>
+                </div>
+            </div>
+            {/* Left Message */}
+            <div className="msg left-msg">
+                <div className="msg-bubble">
+                <div className="msg-info">
+                    <div className="msg-info-name">
+                    <u>Vu Thi Hoang Dung</u>
+                    </div>
+                </div>
+
+                <div className="msg-text">Tui di nua :))</div>
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = ({ roomName }) => {
     return (
@@ -17,9 +18,9 @@ const Header = ({ roomName }) => {
             Chatty - The Simple Chat Application [{roomName}]
         </div>
         <div className="msger-header-options">
-            <span>
-            <a href="/">Sign Out</a>
-            </span>
+            <Link to='/'>
+                <button className="btn-join">Sign out</button>
+            </Link>
         </div>
         </header>
     );
