@@ -4,13 +4,13 @@ const addNewUser = ({ id, userName, roomId }) => {
     userName = userName.trim().toLowerCase();
     roomId = roomId.trim().toLowerCase();
 
-    const exitsUser = users.find(
+    const existUser = users.find(
         (user) => user.roomId === roomId && user.userName === userName
     );
 
-    if (!userName || !roomId)
-        return { error: "Nick name and roomId are required." };
-    if (exitsUser) return { error: "Nick Name & roomId id is taken." };
+    if (!userName || !roomId) return { error: "Nick name and roomId are required." };
+    
+    if (existUser) return { error: "Nick Name & roomId id is taken." };
 
     const user = { id, userName, roomId };
 
