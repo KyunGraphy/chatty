@@ -1,10 +1,12 @@
 import React from "react";
 import Message from "./Message";
 
-const Messages = () => {
+const Messages = ({ messages, userName }) => {
     return (
         <main className="msger-chat">
-            <Message />
+            {messages.map((message, i) => (
+                <Message key={i} message={message} userName={userName} />
+            ))}
         </main>
     );
 };

@@ -1,14 +1,21 @@
-import React from "react";
+import React from 'react';
 
-const MessageInput = () => {
+const MessageInput = ({ sendMessage, setMessage, message }) => {
     return (
-        <form className="msger-inputarea">
+        <form className='msger-inputarea'>
         <input
-            type="text"
-            className="msger-input"
-            placeholder="Type your message"
+            type='text'
+            className='msger-input'
+            placeholder='Enter your message...'
+            onChange={(e) => setMessage(e.target.value)}
+            value={message}
+            onKeyPress={(e) => (e.key === 'Enter' ? sendMessage(e) : null)}
         />
-        <button className="msger-send-btn" type="submit">
+        <button
+            type='submit'
+            className='msger-send-btn'
+            onClick={(e) => sendMessage(e)}
+        >
             Send
         </button>
         </form>
