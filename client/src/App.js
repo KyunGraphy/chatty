@@ -1,8 +1,8 @@
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Home from './components/Home';
-import ChatPlatForm from './components/ChatPlatForm';
+import Home from './elements/Home';
+import ChatPlatForm from './elements/ChatPlatForm';
 
 function App() {
   return (

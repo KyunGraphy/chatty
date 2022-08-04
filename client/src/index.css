@@ -103,6 +103,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .msg-info-name {
@@ -202,4 +203,6 @@ body {
   background-color: rgb(32, 55, 32);
   color: white;
   height: 40px;
+  cursor: pointer;
+  border-radius: 10px;
 }
